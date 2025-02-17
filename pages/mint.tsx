@@ -289,9 +289,7 @@ const Home: NextPage = () => {
                   {/* Image Preview of NFTs */}
                   <Image
                     className={styles.image}
-                    src={
-                      contractMetadata?.image ?? (missing as unknown as string)
-                    }
+                    src={missing as unknown as string}
                     alt={`${contractMetadata?.name} preview image`}
                     height={440}
                     width={440}
@@ -404,7 +402,7 @@ const Home: NextPage = () => {
                               }}
                               onSuccess={() => {
                                 setQuantity(1);
-                                setShowConf(true)
+                                setShowConf(true);
                                 // alert("Successfully claimed NFTs");
                               }}
                             >
