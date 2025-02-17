@@ -4,7 +4,7 @@ import styles from "../styles/Theme.module.css";
 import Navbar from "../components/Navbar";
 import Image, { StaticImageData } from "next/image";
 import mott from "../public/Screenshot 2025-02-16 231237.png";
-import missing from "../public/WhatsApp Image 2025-02-16 at 23.48.06_0e15a9c8.jpg";
+import missing from "../public/missingg.jpg";
 import one from "../public/11.jpg";
 import two from "../public/12.jpg";
 import three from "../public/13.jpg";

@@ -17,7 +17,7 @@ import { useEffect, useMemo, useState } from "react";
 import styles from "../styles/Theme.module.css";
 import { parseIneligibility } from "../utils/parseIneligibility";
 import Navbar from "../components/Navbar";
-import missing from "../public/WhatsApp Image 2025-02-16 at 23.48.06_0e15a9c8.jpg";
+import missing from "../public/missingg.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import Lottie from "react-lottie";
