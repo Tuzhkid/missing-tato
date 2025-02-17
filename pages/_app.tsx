@@ -35,7 +35,7 @@ const queryClient = new QueryClient();
 // da80524de436716df3e7c21106b666ed 5ec9d980533be21c962580687677c0f9
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   useEffect(() => {
     if (isAuthenticated) return;

@@ -42,7 +42,7 @@ const Home: NextPage = () => {
   const [quantity, setQuantity] = useState(1);
 
   const { data: contractMetadata } = useContractMetadata(nftDrop);
-  console.log(nftDrop, contractMetadata);
+  // console.log(nftDrop, contractMetadata);
 
   const claimConditions = useClaimConditions(nftDrop);
 
@@ -277,7 +277,7 @@ const Home: NextPage = () => {
                   style={{
                     cursor: "pointer",
                     position: "absolute",
-                    top: -80,
+                    top: -50,
                     left: 0,
                   }}
                 >

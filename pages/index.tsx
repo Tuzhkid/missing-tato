@@ -5,10 +5,9 @@ import Navbar from "../components/Navbar";
 import Image, { StaticImageData } from "next/image";
 import mott from "../public/Screenshot 2025-02-16 231237.png";
 import missing from "../public/missingg.jpg";
-import one from "../public/11.jpg";
+import one from "../public/14.jpg";
 import two from "../public/12.jpg";
 import three from "../public/13.jpg";
-import Link from "next/link";
 
 const NFTCard = ({
   name,
@@ -83,11 +82,11 @@ const HomePage = () => {
       law: "mOTaTOEs ArE tHE MoST eGaLiTArIaN thInG We'Ve EvEr SeEn—sImPlE, PiXeLaTEd SpUDS, nO fUsS. IF It aLl cLiCkS, wHO KnOwS wHaT MiGhT hAPpEn ",
     },
     {
-      name: "Keone Tato",
+      name: "John W Rich Kid Tato",
       price: "∞",
       status: "incoming",
       img: one,
-      law: "The True Face Of Monad, The Coolest Founder In The Whole Of Web 3, Has Joined The Motatoes Ecosystem, “We Believe In Keone” All The Nads Say In The Unison,, HIS NAME IS KEONE HON! And Don't You Dare Forget It 💜",
+      law: "The Wendy's Fry Cook Of Monad Is The Epitome Of Nad Culture, His Purge Day Memes Captured The Heart Of So Many Nads, His Impact In Monad Lore Is Unlike No One Else, He Has Joined The Motatoes Ecosystem, He Also Cooks A Mean Steak.",
     },
     {
       name: "The Missing Tato",
