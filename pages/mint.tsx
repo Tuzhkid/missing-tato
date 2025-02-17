@@ -287,12 +287,10 @@ const Home: NextPage = () => {
               <div className={styles.mintInfoContainer}>
                 <div className={styles.infoSide}>
                   {/* Image Preview of NFTs */}
-                  <Image
+                  <img
                     className={styles.image}
-                    src={missing}
-                    alt={`${contractMetadata?.name} preview image`}
-                    height={440}
-                    width={440}
+                    src={contractMetadata?.image}
+                    alt={`${contractMetadata?.name} preview image`}                    
                   />
                 </div>
 
