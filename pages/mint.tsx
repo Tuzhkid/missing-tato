@@ -289,7 +289,7 @@ const Home: NextPage = () => {
                   {/* Image Preview of NFTs */}
                   <Image
                     className={styles.image}
-                    src={missing as unknown as string}
+                    src={missing}
                     alt={`${contractMetadata?.name} preview image`}
                     height={440}
                     width={440}
