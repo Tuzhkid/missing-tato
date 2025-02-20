@@ -40,7 +40,7 @@ const NFTCard = ({
       <h3 className={styles.cardTitle}>{name}</h3>
       <div className={styles.cardDetails}>
         <span className={styles.price} style={{ fontSize: "32px" }}>
-          {price} <span style={{ fontSize: "0.75rem" }}>TMON</span>
+          {price} <span style={{ fontSize: "0.75rem" }}>MON</span>
         </span>
         {status === "now" ? (
           <button

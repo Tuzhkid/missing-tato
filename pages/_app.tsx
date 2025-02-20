@@ -4,7 +4,6 @@ import type { Chain } from "@thirdweb-dev/chains";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import "../styles/globals.css";
 import Head from "next/head";
-import { useEffect, useState } from "react";
 
 // Define your custom chain
 const customChain: Chain = {
@@ -12,11 +11,11 @@ const customChain: Chain = {
   chainId: 10143, // Your custom chain ID
   name: "Monad Testnet",
   rpc: [
-    "https://testnet-rpc2.monad.xyz/52227f026fa8fac9e2014c58fbf5643369b3bfc6",
+    "https://testnet-rpc.monad.xyz/",
   ],
   nativeCurrency: {
     name: "Monad",
-    symbol: "TMON",
+    symbol: "MON",
     decimals: 18,
   },
   explorers: [
@@ -35,22 +34,8 @@ const queryClient = new QueryClient();
 // da80524de436716df3e7c21106b666ed 5ec9d980533be21c962580687677c0f9
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
-  useEffect(() => {
-    if (isAuthenticated) return;
-
-    const password = prompt("Enter password:");
-
-    if (password === "motatoes2025") {
-        setIsAuthenticated(true);
-    } else {
-        alert("Unauthorized");
-        window.location.href = "about:blank"; // Prevents access
-    }
-}, [isAuthenticated]);
-
-  return isAuthenticated ? (
+  return (
     <QueryClientProvider client={queryClient}>
       <ThirdwebProvider
         secretKey="sx26XL_aTHOHv0BEX4IFPYYLL_4VfsTsXpQkyJP_WsTgC_ndNm3mis3jB2vSOsQj96svIEvDYmjfYbhKUo-tqg"
@@ -73,7 +58,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </ThirdwebProvider>
     </QueryClientProvider>
-  ) : null;
+  );
 }
 
 export default MyApp;

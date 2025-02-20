@@ -317,7 +317,7 @@ const Home: NextPage = () => {
                       fontFamily: "Times New Roman",
                     }}
                   >
-                    Price: <span style={{ fontWeight: "700" }}>1 TMON</span>
+                    Price: <span style={{ fontWeight: "700" }}>1 MON</span>
                   </p>
                   <p
                     style={{
